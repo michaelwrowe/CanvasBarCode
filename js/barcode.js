@@ -46,7 +46,7 @@ while(total < barCode.width)
 
 ctx.lineWidth = 10;
 ctx.strokeStyle = '#FFF';
-ctx.strokeRect(barCode.x + (ctx.lineWidth / 2),barCode.y + (ctx.lineWidth / 2),barCode.width - ctx.lineWidth,barCode.height - ctx.lineWidth);
+ctx.strokeRect(barCode.x + (ctx.lineWidth / 2),barCode.y + (ctx.lineWidth / 2), barCode.width - ctx.lineWidth,barCode.height - ctx.lineWidth);
 
 ctx.lineWidth = 1;
 ctx.strokeStyle = '#000';
